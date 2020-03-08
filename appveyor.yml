@@ -37,6 +37,7 @@ shallow_clone: true
 branches:
   only:
     - master
+    - appveyor_quick_fix
 
 build_script:
   # copy modified libintl.h to solve an issue with boost
